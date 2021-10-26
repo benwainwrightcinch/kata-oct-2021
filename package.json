@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "script": {
+    "test": "jest"
+  },
   "dependencies": {
     "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",

@@ -1,6 +1,7 @@
 import { pigIt } from "./pig-latin"
 
-test("a test", () => {
-  const result = pigIt("something")
-  expect(true).toEqual(false)
+describe("pigIt", () => {
+  it("should work", () => {
+    expect(true).toEqual(true)
+  })
 })
